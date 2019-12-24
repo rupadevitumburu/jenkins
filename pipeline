@@ -8,21 +8,6 @@ stages{
   }
   }
   
-  stage('Test')
-  step
-  {
-  {
-  echo "testing the project"
-  }
-  }
-  
-  stage('Deploy')
-  {
-  step
-  {
-  echo "Deploying the project"
-  }
-  }
   }
   }
    
